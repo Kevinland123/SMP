@@ -1,0 +1,4 @@
+# hello
+First type autoreconf -i
+Then type ./configure
+Finally type make

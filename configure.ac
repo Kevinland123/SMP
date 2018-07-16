@@ -17,6 +17,12 @@ AM_INIT_AUTOMAKE([1.11 -Wall -Werror])
 AC_CONFIG_FILES([Makefile])
 AC_CONFIG_FILES([src/Makefile])
 
+AC_CHECK_LIB(likwid,likwid_markerStartRegion, [
+echo "LIKWID found"], [AC_MSG_ERROR([Could not find LIKWID library]) exit -1])
+
+AC_CHECK_LIB(papi, PAPI_num_counters, [
+echo "PAPI found"], [AC_MSG_ERROR([Could not find PAPI library]) exit -1])
+
 # Find C++ Compiler
 AC_PROG_CXX
 

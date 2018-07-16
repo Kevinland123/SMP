@@ -1,10 +1,20 @@
-testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
+testbp-test_bp.o: test_bp.cpp /usr/include/stdc-predef.h \
+ /usr/include/stdlib.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
  /usr/include/c++/4.8.2/iostream \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
- /usr/include/bits/wordsize.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
- /usr/include/features.h /usr/include/sys/cdefs.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/c++/4.8.2/ostream /usr/include/c++/4.8.2/ios \
  /usr/include/c++/4.8.2/iosfwd /usr/include/c++/4.8.2/bits/stringfwd.h \
@@ -12,9 +22,7 @@ testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
  /usr/include/c++/4.8.2/bits/postypes.h /usr/include/c++/4.8.2/cwchar \
  /usr/include/wchar.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
- /usr/include/bits/wchar.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
- /usr/include/xlocale.h /usr/include/c++/4.8.2/exception \
+ /usr/include/bits/wchar.h /usr/include/c++/4.8.2/exception \
  /usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
  /usr/include/c++/4.8.2/bits/exception_ptr.h \
  /usr/include/c++/4.8.2/bits/exception_defines.h \
@@ -39,17 +47,12 @@ testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/4.8.2/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/4.8.2/cctype \
- /usr/include/ctype.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/endian.h \
- /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
- /usr/include/bits/byteswap-16.h /usr/include/c++/4.8.2/bits/ios_base.h \
+ /usr/include/ctype.h /usr/include/c++/4.8.2/bits/ios_base.h \
  /usr/include/c++/4.8.2/ext/atomicity.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
- /usr/include/bits/sched.h /usr/include/bits/time.h \
- /usr/include/bits/timex.h /usr/include/bits/pthreadtypes.h \
- /usr/include/bits/setjmp.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/timex.h /usr/include/bits/setjmp.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/atomic_word.h \
  /usr/include/c++/4.8.2/bits/locale_classes.h \
  /usr/include/c++/4.8.2/string /usr/include/c++/4.8.2/bits/allocator.h \
@@ -63,12 +66,7 @@ testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
  /usr/include/c++/4.8.2/bits/basic_string.h \
  /usr/include/c++/4.8.2/initializer_list \
  /usr/include/c++/4.8.2/ext/string_conversions.h \
- /usr/include/c++/4.8.2/cstdlib /usr/include/stdlib.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/sys/types.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/sigset.h \
- /usr/include/sys/sysmacros.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/4.8.2/cstdio \
+ /usr/include/c++/4.8.2/cstdlib /usr/include/c++/4.8.2/cstdio \
  /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h /usr/include/c++/4.8.2/cerrno \
@@ -90,27 +88,68 @@ testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
  /usr/include/c++/4.8.2/bits/locale_facets.tcc \
  /usr/include/c++/4.8.2/bits/basic_ios.tcc \
  /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
- /usr/include/c++/4.8.2/bits/istream.tcc
+ /usr/include/c++/4.8.2/bits/istream.tcc Block.h BlockGraph.h \
+ BlockEditor.h BlockPart.h
 
 /usr/include/stdc-predef.h:
 
-Block.h:
-
-/usr/include/c++/4.8.2/iostream:
-
-/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+/usr/include/stdlib.h:
 
 /usr/include/features.h:
 
 /usr/include/sys/cdefs.h:
 
+/usr/include/bits/wordsize.h:
+
 /usr/include/gnu/stubs.h:
 
 /usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/4.8.2/iostream:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
 
 /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
 
@@ -135,10 +174,6 @@ Block.h:
 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
 
 /usr/include/bits/wchar.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
-
-/usr/include/xlocale.h:
 
 /usr/include/c++/4.8.2/exception:
 
@@ -198,18 +233,6 @@ Block.h:
 
 /usr/include/ctype.h:
 
-/usr/include/bits/types.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/endian.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/bits/byteswap-16.h:
-
 /usr/include/c++/4.8.2/bits/ios_base.h:
 
 /usr/include/c++/4.8.2/ext/atomicity.h:
@@ -222,15 +245,9 @@ Block.h:
 
 /usr/include/sched.h:
 
-/usr/include/time.h:
-
 /usr/include/bits/sched.h:
 
-/usr/include/bits/time.h:
-
 /usr/include/bits/timex.h:
-
-/usr/include/bits/pthreadtypes.h:
 
 /usr/include/bits/setjmp.h:
 
@@ -265,26 +282,6 @@ Block.h:
 /usr/include/c++/4.8.2/ext/string_conversions.h:
 
 /usr/include/c++/4.8.2/cstdlib:
-
-/usr/include/stdlib.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/bits/sigset.h:
-
-/usr/include/sys/sysmacros.h:
-
-/usr/include/alloca.h:
-
-/usr/include/bits/stdlib-float.h:
 
 /usr/include/c++/4.8.2/cstdio:
 
@@ -347,3 +344,11 @@ Block.h:
 /usr/include/c++/4.8.2/istream:
 
 /usr/include/c++/4.8.2/bits/istream.tcc:
+
+Block.h:
+
+BlockGraph.h:
+
+BlockEditor.h:
+
+BlockPart.h:

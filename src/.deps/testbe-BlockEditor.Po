@@ -1,13 +1,13 @@
-testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
- /usr/include/c++/4.8.2/iostream \
+testbe-BlockEditor.o: BlockEditor.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/4.8.2/fstream /usr/include/c++/4.8.2/istream \
+ /usr/include/c++/4.8.2/ios /usr/include/c++/4.8.2/iosfwd \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
- /usr/include/c++/4.8.2/ostream /usr/include/c++/4.8.2/ios \
- /usr/include/c++/4.8.2/iosfwd /usr/include/c++/4.8.2/bits/stringfwd.h \
+ /usr/include/c++/4.8.2/bits/stringfwd.h \
  /usr/include/c++/4.8.2/bits/memoryfwd.h \
  /usr/include/c++/4.8.2/bits/postypes.h /usr/include/c++/4.8.2/cwchar \
  /usr/include/wchar.h /usr/include/stdio.h \
@@ -88,15 +88,30 @@ testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
  /usr/include/c++/4.8.2/bits/streambuf_iterator.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h \
  /usr/include/c++/4.8.2/bits/locale_facets.tcc \
- /usr/include/c++/4.8.2/bits/basic_ios.tcc \
- /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
- /usr/include/c++/4.8.2/bits/istream.tcc
+ /usr/include/c++/4.8.2/bits/basic_ios.tcc /usr/include/c++/4.8.2/ostream \
+ /usr/include/c++/4.8.2/bits/ostream.tcc \
+ /usr/include/c++/4.8.2/bits/istream.tcc \
+ /usr/include/c++/4.8.2/bits/codecvt.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/4.8.2/bits/fstream.tcc /usr/include/c++/4.8.2/cstring \
+ /usr/include/string.h /usr/include/c++/4.8.2/cmath /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ BlockEditor.h Block.h /usr/include/c++/4.8.2/iostream BlockGraph.h \
+ Utility.h
 
 /usr/include/stdc-predef.h:
 
-Block.h:
+/usr/include/c++/4.8.2/fstream:
 
-/usr/include/c++/4.8.2/iostream:
+/usr/include/c++/4.8.2/istream:
+
+/usr/include/c++/4.8.2/ios:
+
+/usr/include/c++/4.8.2/iosfwd:
 
 /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
 
@@ -113,12 +128,6 @@ Block.h:
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
-
-/usr/include/c++/4.8.2/ostream:
-
-/usr/include/c++/4.8.2/ios:
-
-/usr/include/c++/4.8.2/iosfwd:
 
 /usr/include/c++/4.8.2/bits/stringfwd.h:
 
@@ -342,8 +351,50 @@ Block.h:
 
 /usr/include/c++/4.8.2/bits/basic_ios.tcc:
 
+/usr/include/c++/4.8.2/ostream:
+
 /usr/include/c++/4.8.2/bits/ostream.tcc:
 
-/usr/include/c++/4.8.2/istream:
-
 /usr/include/c++/4.8.2/bits/istream.tcc:
+
+/usr/include/c++/4.8.2/bits/codecvt.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h:
+
+/usr/include/c++/4.8.2/bits/fstream.tcc:
+
+/usr/include/c++/4.8.2/cstring:
+
+/usr/include/string.h:
+
+/usr/include/c++/4.8.2/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+BlockEditor.h:
+
+Block.h:
+
+/usr/include/c++/4.8.2/iostream:
+
+BlockGraph.h:
+
+Utility.h:

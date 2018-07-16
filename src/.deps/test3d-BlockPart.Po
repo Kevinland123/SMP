@@ -1,4 +1,4 @@
-testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
+test3d-BlockPart.o: BlockPart.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/4.8.2/iostream \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -90,11 +90,15 @@ testblock-test_Block.o: test_Block.cpp /usr/include/stdc-predef.h Block.h \
  /usr/include/c++/4.8.2/bits/locale_facets.tcc \
  /usr/include/c++/4.8.2/bits/basic_ios.tcc \
  /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
- /usr/include/c++/4.8.2/bits/istream.tcc
+ /usr/include/c++/4.8.2/bits/istream.tcc /usr/include/c++/4.8.2/cmath \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h BlockPart.h Block.h BlockGraph.h \
+ BlockEditor.h
 
 /usr/include/stdc-predef.h:
-
-Block.h:
 
 /usr/include/c++/4.8.2/iostream:
 
@@ -347,3 +351,31 @@ Block.h:
 /usr/include/c++/4.8.2/istream:
 
 /usr/include/c++/4.8.2/bits/istream.tcc:
+
+/usr/include/c++/4.8.2/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+BlockPart.h:
+
+Block.h:
+
+BlockGraph.h:
+
+BlockEditor.h:
